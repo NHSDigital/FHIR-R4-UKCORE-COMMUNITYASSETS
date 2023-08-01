@@ -1,0 +1,24 @@
+<NamingSystem xmlns="http://hl7.org/fhir">
+  <id value="readv2-namingsystem" />
+  <name value="READ V2" />
+  <status value="retired" />
+  <kind value="codesystem" />
+  <date value="2019-05-01" />
+  <publisher value="NHS Digital" />
+  <contact>
+    <name value="Interoperability Team" />
+    <telecom>
+      <system value="email" />
+      <value value="interoperabilityteam@nhs.net" />
+      <use value="work" />
+    </telecom>
+  </contact>
+  <responsible value="NHS Digital" />
+  <description value="Read Codes version 2" />
+  <usage value="Read Codes are a coded thesaurus of clinical terms." />
+  <uniqueId>
+    <type value="uri" />
+    <value value="http://read.info/readv2" />
+    <preferred value="true" />
+  </uniqueId>
+</NamingSystem>

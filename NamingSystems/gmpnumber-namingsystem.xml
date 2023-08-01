@@ -1,0 +1,21 @@
+<NamingSystem xmlns="http://hl7.org/fhir">
+  <id value="gmpnumber-namingsystem" />
+  <name value="GMP Number" />
+  <status value="active" />
+  <kind value="identifier" />
+  <date value="2019-05-01" />
+  <contact>
+    <name value="Interoperability Team" />
+    <telecom>
+      <system value="email" />
+      <value value="interoperabilityteam@nhs.net" />
+      <use value="work" />
+    </telecom>
+  </contact>
+  <description value="General Practitioner (GMP) number" />
+  <uniqueId>
+    <type value="uri" />
+    <value value="https://fhir.hl7.org.uk/Id/gmp-number" />
+    <preferred value="true" />
+  </uniqueId>
+</NamingSystem>

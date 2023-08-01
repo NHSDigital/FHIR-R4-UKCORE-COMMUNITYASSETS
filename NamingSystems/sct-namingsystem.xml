@@ -1,0 +1,21 @@
+<NamingSystem xmlns="http://hl7.org/fhir">
+  <id value="sct-namingsystem" />
+  <name value="SNOMED CT" />
+  <status value="active" />
+  <kind value="codesystem" />
+  <date value="2019-05-01" />
+  <contact>
+    <name value="Interoperability Team" />
+    <telecom>
+      <system value="email" />
+      <value value="interoperabilityteam@nhs.net" />
+      <use value="work" />
+    </telecom>
+  </contact>
+  <description value="SNOMED CT" />
+  <uniqueId>
+    <type value="uri" />
+    <value value="http://snomed.info/sct" />
+    <preferred value="true" />
+  </uniqueId>
+</NamingSystem>

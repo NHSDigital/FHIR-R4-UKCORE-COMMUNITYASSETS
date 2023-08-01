@@ -1,0 +1,23 @@
+<NamingSystem xmlns="http://hl7.org/fhir">
+  <id value="gocnumber-namingsystem" />
+  <name value="GOC Number" />
+  <status value="active" />
+  <kind value="identifier" />
+  <date value="2022-01-31" />
+  <publisher value="NHS Digital" />
+  <contact>
+    <name value="Interoperability Team" />
+    <telecom>
+      <system value="email" />
+      <value value="interoperabilityteam@nhs.net" />
+      <use value="work" />
+    </telecom>
+  </contact>
+  <responsible value="NHS Digital" />
+  <description value="General Optical Council (GOC) number" />
+  <uniqueId>
+    <type value="uri" />
+    <value value="https://fhir.hl7.org.uk/Id/goc-number" />
+    <preferred value="true" />
+  </uniqueId>
+</NamingSystem>

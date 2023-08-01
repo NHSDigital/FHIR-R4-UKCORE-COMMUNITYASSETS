@@ -1,0 +1,21 @@
+<NamingSystem xmlns="http://hl7.org/fhir">
+  <id value="bnf-drug-codes-namingsystem" />
+  <name value="BNF Drug" />
+  <status value="active" />
+  <kind value="codesystem" />
+  <date value="2019-05-01" />
+  <contact>
+    <name value="Interoperability Team" />
+    <telecom>
+      <system value="email" />
+      <value value="interoperabilityteam@nhs.net" />
+      <use value="work" />
+    </telecom>
+  </contact>
+  <description value="BNF drug codes" />
+  <uniqueId>
+    <type value="uri" />
+    <value value="https://fhir.hl7.org.uk/Id/bnf-drug-codes" />
+    <preferred value="true" />
+  </uniqueId>
+</NamingSystem>
