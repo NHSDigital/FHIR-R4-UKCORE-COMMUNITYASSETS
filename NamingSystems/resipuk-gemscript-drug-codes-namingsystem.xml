@@ -1,21 +1,26 @@
 <NamingSystem xmlns="http://hl7.org/fhir">
-  <id value="resipuk-gemscript-drug-codes-namingsystem" />
-  <name value="Gemscript Drug" />
-  <status value="active" />
-  <kind value="codesystem" />
-  <date value="2019-05-01" />
-  <contact>
-    <name value="Interoperability Team" />
-    <telecom>
-      <system value="email" />
-      <value value="interoperabilityteam@nhs.net" />
-      <use value="work" />
-    </telecom>
-  </contact>
-  <description value="Gemscript drug codes" />
-  <uniqueId>
-    <type value="uri" />
-    <value value="https://fhir.hl7.org.uk/Id/resipuk-gemscript-drug-codes" />
-    <preferred value="true" />
-  </uniqueId>
+	<id value="UKCore-GemscriptDrug"/>
+	<name value="UKCoreGemscriptDrug"/>
+	<title value="UK Core Gemscript Drug"/>
+	<version value="1.0.0"/>
+	<status value="active"/>
+	<kind value="codesystem"/>
+	<date value="2023-08-01"/>
+	<publisher value="HL7 UK"/>
+	<contact>
+		<name value="HL7 UK"/>
+		<telecom>
+			<system value="email"/>
+			<value value="ukcore@hl7.org.uk"/>
+			<use value="work"/>
+			<rank value="1"/>
+		</telecom>
+	</contact>
+	<responsible value="Resip Drug Database UK Ltd"/>
+	<description value="Gemscript drug codes"/>
+	<uniqueId>
+		<type value="uri"/>
+		<value value="https://fhir.hl7.org.uk/Id/resipuk-gemscript-drug-codes"/>
+		<preferred value="true"/>
+	</uniqueId>
 </NamingSystem>

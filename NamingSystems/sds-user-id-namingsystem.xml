@@ -1,19 +1,22 @@
 <NamingSystem xmlns="http://hl7.org/fhir">
-  <id value="sds-user-id-namingsystem" />
-  <name value="SDS User ID" />
-  <status value="active" />
-  <kind value="identifier" />
-  <date value="2019-05-01" />
-  <publisher value="NHS Digital" />
-  <contact>
-    <name value="Interoperability Team" />
-    <telecom>
-      <system value="email" />
-      <value value="interoperabilityteam@nhs.net" />
-      <use value="work" />
-    </telecom>
-  </contact>
-  <responsible value="NHS Digital" />
+	<id value="UKCore-SDSUserID"/>
+	<name value="UKCoreSDSUserID"/>
+	<title value="UK Core SDS User ID"/>
+	<version value="1.0.0"/>
+	<status value="active"/>
+	<kind value="identifier"/>
+	<date value="2023-08-01"/>
+	<publisher value="HL7 UK"/>
+	<contact>
+		<name value="HL7 UK"/>
+		<telecom>
+			<system value="email"/>
+			<value value="ukcore@hl7.org.uk"/>
+			<use value="work"/>
+			<rank value="1"/>
+		</telecom>
+	</contact>
+	<responsible value="NHS England"/>
   <description value="The user's unique identifier on the NHS Spine Directory Service." />
   <usage value="To uniquely identify a user of the NHS Spine Directory Service." />
   <uniqueId>
@@ -25,5 +28,6 @@
     <type value="oid" />
     <value value="1.2.826.0.1285.0.2.0.65" />
     <preferred value="false" />
+    <comment value="NHS SDS - User's Unique Identifier. [BT]"></comment>
   </uniqueId>
 </NamingSystem>

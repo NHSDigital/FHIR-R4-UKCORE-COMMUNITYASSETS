@@ -1,27 +1,32 @@
 <NamingSystem xmlns="http://hl7.org/fhir">
-  <id value="emis-drug-namingsystem" />
-  <name value="EMIS Drug" />
-  <status value="active" />
-  <kind value="codesystem" />
-  <date value="2019-05-01" />
-  <contact>
-    <name value="Interoperability Team" />
-    <telecom>
-      <system value="email" />
-      <value value="interoperabilityteam@nhs.net" />
-      <use value="work" />
-    </telecom>
-  </contact>
-  <description value="EMIS drug codes" />
-  <usage value="A coding system describing UK drugs and their ingredients developed by EMIS systems Ltd" />
-  <uniqueId>
-    <type value="uri" />
-    <value value="https://fhir.hl7.org.uk/Id/emis-drug-codes" />
-    <preferred value="true" />
-  </uniqueId>
-  <uniqueId>
-    <type value="oid" />
-    <value value="2.16.840.1.113883.2.1.6.9" />
-    <preferred value="false" />
-  </uniqueId>
+	<id value="UKCore-EmisDrugCodes"/>
+	<name value="UKCoreEmisDrugCodes"/>
+	<title value="UK Core Emis Drug Codes"/>
+	<version value="1.0.0"/>
+	<status value="active"/>
+	<kind value="codesystem"/>
+	<date value="2023-08-01"/>
+	<publisher value="HL7 UK"/>
+	<contact>
+		<name value="HL7 UK"/>
+		<telecom>
+			<system value="email"/>
+			<value value="ukcore@hl7.org.uk"/>
+			<use value="work"/>
+			<rank value="1"/>
+		</telecom>
+	</contact>
+	<responsible value="EMIS Health"/>
+	<description value="EMIS drug codes"/>
+	<usage value="A coding system describing UK drugs and their ingredients developed by EMIS systems Ltd"/>
+	<uniqueId>
+		<type value="uri"/>
+		<value value="https://fhir.hl7.org.uk/Id/emis-drug-codes"/>
+		<preferred value="true"/>
+	</uniqueId>
+	<uniqueId>
+		<type value="oid"/>
+		<value value="2.16.840.1.113883.2.1.6.9"/>
+		<preferred value="false"/>
+	</uniqueId>
 </NamingSystem>
