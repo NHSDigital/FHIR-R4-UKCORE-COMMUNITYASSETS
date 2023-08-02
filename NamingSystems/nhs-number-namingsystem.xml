@@ -15,7 +15,7 @@
 		</telecom>
 	</contact>
 	<responsible value="NHS England"/>
-	<description value="NHS Number allocated to the patient in England and Wales. [NHS Number](https://www.datadictionary.nhs.uk/data_dictionary/attributes/n/nhs/nhs_number_de.asp)"/>
+	<description value="NHS Number allocated to the patient in England and Wales. For more details see: [NHS Data Model Dictionary](https://www.datadictionary.nhs.uk/attributes/nhs_number.html)"/>
 	<usage value="A unique patient identifier for everyone registered with the NHS in England and Wales."/>
 	<uniqueId>
 		<type value="uri"/>
