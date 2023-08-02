@@ -15,7 +15,7 @@
 		</telecom>
 	</contact>
 	<responsible value="NHS England"/>
-	<description value="Dictionary of medicines and devices."/>
+	<description value="NHS Dictionary of Medicines and Devices. For more details see: [NHS Data Model Dictionary](https://www.datadictionary.nhs.uk/supporting_information/nhs_dictionary_of_medicines_and_devices.html)"/>
 	<uniqueId>
 		<type value="uri"/>
 		<value value="https://dmd.nhs.uk"/>
