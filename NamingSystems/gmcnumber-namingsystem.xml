@@ -15,7 +15,7 @@
 		</telecom>
 	</contact>
 	<responsible value="General Medical Council"/>
-	<description value="General Medical Council Consultant Code. See [NHS Data Dictionary](https://www.datadictionary.nhs.uk/attributes/general_medical_council_reference_number.html)"/>
+	<description value="General Medical Council Consultant Code. For more details see: [NHS Data Model Dictionary](https://www.datadictionary.nhs.uk/attributes/general_medical_council_reference_number.html)"/>
 	<usage value="A unique consultant code, used to identify consultants"/>
 	<uniqueId>
 		<type value="uri"/>

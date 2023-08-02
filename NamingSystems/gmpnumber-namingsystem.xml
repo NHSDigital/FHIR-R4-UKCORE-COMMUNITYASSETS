@@ -15,7 +15,7 @@
 		</telecom>
 	</contact>
 	<responsible value="NHS Prescription Services"/>
-	<description value="General Practitioner (GMP) number. See [NHS Data Dictionary](https://www.datadictionary.nhs.uk/attributes/general_medical_practitioner_ppd_code.html)"/>
+	<description value="General Practitioner (GMP) number. For more details see: [NHS Data Model Dictionary](https://www.datadictionary.nhs.uk/attributes/general_medical_practitioner_ppd_code.html)"/>
 	<uniqueId>
 		<type value="uri"/>
 		<value value="https://fhir.hl7.org.uk/Id/gmp-number"/>

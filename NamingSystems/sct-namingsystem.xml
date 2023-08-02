@@ -15,7 +15,7 @@
 		</telecom>
 	</contact>
 	<responsible value="International Health Terminology Standards Development Organisation"/>
-	<description value="SNOMED CT"/>
+	<description value="SNOMED CT. For details of the international organisation see: [SNOMED International](https://www.snomed.org/). For details of SNOMED CT usage in NHS: [NHS England](https://www.england.nhs.uk/digitaltechnology/digital-primary-care/snomed-ct/)"/>
 	<uniqueId>
 		<type value="uri"/>
 		<value value="http://snomed.info/sct"/>
