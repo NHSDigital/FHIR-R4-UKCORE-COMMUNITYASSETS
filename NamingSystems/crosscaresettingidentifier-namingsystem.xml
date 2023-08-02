@@ -1,8 +1,6 @@
 <NamingSystem xmlns="http://hl7.org/fhir">
-	<id value="UKCore-CrossCareSetting"/>
-	<name value="UKCoreCrossCareSetting"/>
-	<title value="UK Core Cross Care Setting"/>
-	<version value="1.0.0"/>
+	<id value="crosscaresettingidentifier-namingsystem"/>
+	<name value="Cross Care Setting Identifier"/>
 	<status value="active"/>
 	<kind value="codesystem"/>
 	<date value="2023-08-01"/>

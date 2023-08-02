@@ -1,8 +1,6 @@
 <NamingSystem xmlns="http://hl7.org/fhir">
-	<id value="UKCore-GMPNumber"/>
-	<name value="UKCoreGMPNumber"/>
-	<title value="UK Core GMPNumber"/>
-	<version value="1.0.0"/>
+	<id value="gmpnumber-namingsystem"/>
+	<name value="GMP Number"/>
 	<status value="active"/>
 	<kind value="identifier"/>
 	<date value="2023-08-01"/>

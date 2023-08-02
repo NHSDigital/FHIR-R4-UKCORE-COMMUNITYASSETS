@@ -1,8 +1,6 @@
 <NamingSystem xmlns="http://hl7.org/fhir">
-	<id value="UKCore-SNOMEDCT"/>
-	<name value="UKCoreSNOMEDCT"/>
-	<title value="UK Core SNOMED CT"/>
-	<version value="1.0.0"/>
+	<id value="sct-namingsystem"/>
+	<name value="SNOMED CT"/>
 	<status value="active"/>
 	<kind value="codesystem"/>
 	<date value="2023-08-01"/>
@@ -16,7 +14,7 @@
 			<rank value="1"/>
 		</telecom>
 	</contact>
-    <responsible value="International Health Terminology Standards Development Organisation"/>
+	<responsible value="International Health Terminology Standards Development Organisation"/>
 	<description value="SNOMED CT"/>
 	<uniqueId>
 		<type value="uri"/>

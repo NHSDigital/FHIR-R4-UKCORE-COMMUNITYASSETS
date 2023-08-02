@@ -1,8 +1,6 @@
 <NamingSystem xmlns="http://hl7.org/fhir">
-	<id value="UKCore-EmisDrugCodes"/>
-	<name value="UKCoreEmisDrugCodes"/>
-	<title value="UK Core Emis Drug Codes"/>
-	<version value="1.0.0"/>
+	<id value="emis-drug-namingsystem"/>
+	<name value="EMIS Drug"/>
 	<status value="active"/>
 	<kind value="codesystem"/>
 	<date value="2023-08-01"/>

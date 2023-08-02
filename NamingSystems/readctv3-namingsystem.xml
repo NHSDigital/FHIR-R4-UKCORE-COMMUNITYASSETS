@@ -1,8 +1,6 @@
 <NamingSystem xmlns="http://hl7.org/fhir">
-	<id value="UKCore-ReadCTV3"/>
-	<name value="UKCoreReadCTV3"/>
-	<title value="UK Core Read CTV3"/>
-	<version value="1.0.0"/>
+	<id value="readctv3-namingsystem"/>
+	<name value="READ CTV3"/>
 	<status value="retired"/>
 	<kind value="codesystem"/>
 	<date value="2023-08-01"/>

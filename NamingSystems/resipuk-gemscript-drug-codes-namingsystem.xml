@@ -1,8 +1,6 @@
 <NamingSystem xmlns="http://hl7.org/fhir">
-	<id value="UKCore-GemscriptDrug"/>
-	<name value="UKCoreGemscriptDrug"/>
-	<title value="UK Core Gemscript Drug"/>
-	<version value="1.0.0"/>
+	<id value="resipuk-gemscript-drug-codes-namingsystem"/>
+	<name value="Gemscript Drug"/>
 	<status value="active"/>
 	<kind value="codesystem"/>
 	<date value="2023-08-01"/>

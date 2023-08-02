@@ -1,8 +1,6 @@
 <NamingSystem xmlns="http://hl7.org/fhir">
-	<id value="UKCore-HCPCNumber"/>
-	<name value="UKCoreHCPCNumber"/>
-	<title value="UK Core HCPCNumber"/>
-	<version value="1.0.0"/>
+	<id value="hcpcnumber-namingsystem"/>
+	<name value="HCPC Number"/>
 	<status value="active"/>
 	<kind value="identifier"/>
 	<date value="2023-08-01"/>

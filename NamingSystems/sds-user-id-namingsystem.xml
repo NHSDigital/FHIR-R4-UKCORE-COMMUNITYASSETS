@@ -1,8 +1,6 @@
 <NamingSystem xmlns="http://hl7.org/fhir">
-	<id value="UKCore-SDSUserID"/>
-	<name value="UKCoreSDSUserID"/>
-	<title value="UK Core SDS User ID"/>
-	<version value="1.0.0"/>
+	<id value="sds-user-id-namingsystem"/>
+	<name value="SDS User ID"/>
 	<status value="active"/>
 	<kind value="identifier"/>
 	<date value="2023-08-01"/>
@@ -17,17 +15,17 @@
 		</telecom>
 	</contact>
 	<responsible value="NHS England"/>
-  <description value="The user's unique identifier on the NHS Spine Directory Service." />
-  <usage value="To uniquely identify a user of the NHS Spine Directory Service." />
-  <uniqueId>
-    <type value="uri" />
-    <value value="https://fhir.nhs.uk/Id/sds-user-id" />
-    <preferred value="true" />
-  </uniqueId>
-  <uniqueId>
-    <type value="oid" />
-    <value value="1.2.826.0.1285.0.2.0.65" />
-    <preferred value="false" />
-    <comment value="NHS SDS - User's Unique Identifier. [BT]"></comment>
-  </uniqueId>
+	<description value="The user's unique identifier on the NHS Spine Directory Service."/>
+	<usage value="To uniquely identify a user of the NHS Spine Directory Service."/>
+	<uniqueId>
+		<type value="uri"/>
+		<value value="https://fhir.nhs.uk/Id/sds-user-id"/>
+		<preferred value="true"/>
+	</uniqueId>
+	<uniqueId>
+		<type value="oid"/>
+		<value value="1.2.826.0.1285.0.2.0.65"/>
+		<preferred value="false"/>
+		<comment value="NHS SDS - User's Unique Identifier. [BT]"/>
+	</uniqueId>
 </NamingSystem>
