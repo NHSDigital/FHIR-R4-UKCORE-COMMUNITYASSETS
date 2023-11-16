@@ -1,5 +1,5 @@
 <NamingSystem xmlns="http://hl7.org/fhir">
-	<id value="dm+d-namingsystem"/>
+	<id value="dmd-namingsystem"/>
 	<name value="dmd"/>
 	<status value="active"/>
 	<kind value="codesystem"/>
