@@ -1,6 +1,6 @@
 <NamingSystem xmlns="http://hl7.org/fhir">
 	<id value="nhs-number-namingsystem"/>
-	<name value="NHS Number"/>
+	<name value="NHSNumber"/>
 	<status value="active"/>
 	<kind value="identifier"/>
 	<date value="2023-08-01"/>

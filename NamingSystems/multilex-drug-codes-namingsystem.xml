@@ -1,6 +1,6 @@
 <NamingSystem xmlns="http://hl7.org/fhir">
 	<id value="multilex-drug-codes-namingsystem"/>
-	<name value="Multilex Drug"/>
+	<name value="MultilexDrug"/>
 	<status value="active"/>
 	<kind value="codesystem"/>
 	<date value="2023-08-01"/>
