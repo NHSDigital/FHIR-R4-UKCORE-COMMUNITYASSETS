@@ -1,9 +1,9 @@
 <NamingSystem xmlns="http://hl7.org/fhir">
-  <id value="gdcnumber-namingsystem" />
-  <name value="GDCNumber" />
+  <id value="NamingSystem-Resipuk-Gemscript-Drug-Codes" />
+  <name value="GemscriptDrug" />
   <status value="active" />
-  <kind value="identifier" />
-  <date value="2023-08-01" />
+  <kind value="codesystem" />
+  <date value="2023-12-05" />
   <publisher value="HL7 UK" />
   <contact>
     <name value="HL7 UK" />
@@ -14,11 +14,11 @@
       <rank value="1" />
     </telecom>
   </contact>
-  <responsible value="General Dental Council" />
-  <description value="General Dental Council (GDC) number, used to identify dental professionals" />
+  <responsible value="Resip Drug Database UK Ltd" />
+  <description value="Gemscript drug codes" />
   <uniqueId>
     <type value="uri" />
-    <value value="https://fhir.hl7.org.uk/Id/gdc-number" />
+    <value value="https://fhir.hl7.org.uk/Id/resipuk-gemscript-drug-codes" />
     <preferred value="true" />
   </uniqueId>
 </NamingSystem>

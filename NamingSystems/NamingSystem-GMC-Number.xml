@@ -1,9 +1,9 @@
 <NamingSystem xmlns="http://hl7.org/fhir">
-  <id value="gmcnumber-namingsystem" />
+  <id value="NamingSystem-GMC-Number" />
   <name value="GMCNumber" />
   <status value="active" />
   <kind value="identifier" />
-  <date value="2023-08-01" />
+  <date value="2023-12-05" />
   <publisher value="HL7 UK" />
   <contact>
     <name value="HL7 UK" />

@@ -1,9 +1,9 @@
 <NamingSystem xmlns="http://hl7.org/fhir">
-  <id value="readctv3-namingsystem" />
-  <name value="READCTV3" />
+  <id value="NamingSystem-ReadV2" />
+  <name value="READV2" />
   <status value="retired" />
   <kind value="codesystem" />
-  <date value="2023-08-01" />
+  <date value="2023-12-05" />
   <publisher value="HL7 UK" />
   <contact>
     <name value="HL7 UK" />
@@ -15,11 +15,11 @@
     </telecom>
   </contact>
   <responsible value="NHS England" />
-  <description value="Read Codes version 3." />
+  <description value="Read Codes version 2" />
   <usage value="Read Codes are a coded thesaurus of clinical terms, used in UK primary care." />
   <uniqueId>
     <type value="uri" />
-    <value value="http://read.info/readctv3" />
+    <value value="http://read.info/readv2" />
     <preferred value="true" />
   </uniqueId>
 </NamingSystem>

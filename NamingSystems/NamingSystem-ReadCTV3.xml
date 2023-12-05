@@ -1,9 +1,9 @@
 <NamingSystem xmlns="http://hl7.org/fhir">
-  <id value="multilex-drug-codes-namingsystem" />
-  <name value="MultilexDrug" />
-  <status value="active" />
+  <id value="NamingSystem-ReadCTV3" />
+  <name value="READCTV3" />
+  <status value="retired" />
   <kind value="codesystem" />
-  <date value="2023-08-01" />
+  <date value="2023-12-05" />
   <publisher value="HL7 UK" />
   <contact>
     <name value="HL7 UK" />
@@ -14,11 +14,12 @@
       <rank value="1" />
     </telecom>
   </contact>
-  <responsible value="First Databank" />
-  <description value="Multilex drug codes" />
+  <responsible value="NHS England" />
+  <description value="Read Codes version 3." />
+  <usage value="Read Codes are a coded thesaurus of clinical terms, used in UK primary care." />
   <uniqueId>
     <type value="uri" />
-    <value value="https://fhir.hl7.org.uk/Id/multilex-drug-codes" />
+    <value value="http://read.info/readctv3" />
     <preferred value="true" />
   </uniqueId>
 </NamingSystem>

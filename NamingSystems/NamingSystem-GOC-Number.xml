@@ -1,9 +1,9 @@
 <NamingSystem xmlns="http://hl7.org/fhir">
-  <id value="hcpcnumber-namingsystem" />
-  <name value="HCPCNumber" />
+  <id value="NamingSystem-GOC-Number" />
+  <name value="GOCNumber" />
   <status value="active" />
   <kind value="identifier" />
-  <date value="2023-08-01" />
+  <date value="2023-12-05" />
   <publisher value="HL7 UK" />
   <contact>
     <name value="HL7 UK" />
@@ -14,11 +14,11 @@
       <rank value="1" />
     </telecom>
   </contact>
-  <responsible value="Health and Care Professions Council" />
-  <description value="Health and Care Professions Council (HCPC) number" />
+  <responsible value="General Optical Council" />
+  <description value="General Optical Council (GOC) number" />
   <uniqueId>
     <type value="uri" />
-    <value value="https://fhir.hl7.org.uk/Id/hcpc-number" />
+    <value value="https://fhir.hl7.org.uk/Id/goc-number" />
     <preferred value="true" />
   </uniqueId>
 </NamingSystem>

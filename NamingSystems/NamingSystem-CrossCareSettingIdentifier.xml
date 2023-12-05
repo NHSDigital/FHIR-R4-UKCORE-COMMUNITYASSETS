@@ -1,9 +1,9 @@
 <NamingSystem xmlns="http://hl7.org/fhir">
-  <id value="nmcnumber-namingsystem" />
-  <name value="NMCNumber" />
+  <id value="NamingSystem-CrossCareSettingIdentifier" />
+  <name value="CrossCareSettingIdentifier" />
   <status value="active" />
-  <kind value="identifier" />
-  <date value="2023-08-01" />
+  <kind value="codesystem" />
+  <date value="2023-12-05" />
   <publisher value="HL7 UK" />
   <contact>
     <name value="HL7 UK" />
@@ -14,11 +14,11 @@
       <rank value="1" />
     </telecom>
   </contact>
-  <responsible value="Nursing and Midwifery Council" />
-  <description value="Nursing and Midwifery Council (NMC) number" />
+  <responsible value="NHS England" />
+  <description value="NHS Cross Care Setting Identifier" />
   <uniqueId>
     <type value="uri" />
-    <value value="https://fhir.hl7.org.uk/Id/nmc-number" />
+    <value value="https://fhir.nhs.uk/Id/cross-care-setting-identifier" />
     <preferred value="true" />
   </uniqueId>
 </NamingSystem>

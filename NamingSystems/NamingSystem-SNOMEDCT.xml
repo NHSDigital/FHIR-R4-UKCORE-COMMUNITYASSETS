@@ -1,9 +1,9 @@
 <NamingSystem xmlns="http://hl7.org/fhir">
-  <id value="sct-namingsystem" />
+  <id value="NamingSystem-SNOMEDCT" />
   <name value="SNOMEDCT" />
   <status value="active" />
   <kind value="codesystem" />
-  <date value="2023-08-01" />
+  <date value="2023-12-05" />
   <publisher value="HL7 UK" />
   <contact>
     <name value="HL7 UK" />
